@@ -1,0 +1,80 @@
+body{
+    font-family:"Trebuchet MS",Arial,sans-serif;
+    font-weight: 450;
+    margin: 0px;
+    background: #807A9E;
+  }
+
+  .container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  header li{
+    display: block;
+    padding-top: 10px;
+    margin: 8px;
+    float: right;
+    border-radius:10px;
+    text-transform:uppercase;
+  }
+
+  img{
+      border-radius: 25%;
+      margin-left: 10px;
+  }
+  
+  img{
+      width: 10%;
+  }
+
+  #home{
+    padding-top: 20px;
+  }
+
+  header{
+    min-height: 80px;
+    background-color: #7358BF;
+  }
+
+  li a{
+    text-decoration: none;
+    color: #FDE794;
+  }
+
+  header h1{
+    float:left;
+    color: #FDE794;
+  }
+
+  #name{
+    background-color: #FDE794;
+    background-image: linear-gradient(180deg, #7358BF  0%, #807A9E  75%);
+  
+    text-align: left;
+    padding: 20% 0px;
+  }
+
+  #name h1, #name p{
+      margin-left: 5%;
+      color: #FDE794;
+  }
+
+  #about-me, #projects, #future, #contact{
+        padding: 40px;
+        border-radius: 39px;
+        margin: 5%;
+        box-shadow:inset 0px 0px 20px #807A9E;
+  }
+
+  #about-me, #future{
+    color: #7358BF;
+    background-color: #FDE794;
+  }
+
+  #projects, #contact{
+      background-color: #7358BF;
+      color: #FDE794;
+  }
